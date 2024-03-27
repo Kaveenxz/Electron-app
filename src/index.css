@@ -1,0 +1,54 @@
+body {
+  background-color: #36393f; 
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: white;
+}
+.title{
+  margin-top: 50px;
+}
+
+.title a{
+  color: white;
+  text-decoration: none;
+}
+.title h1{
+  font-size: 40px;
+}
+
+.add-note {
+  background-color: rgba(0, 0, 0, 0.5); 
+  border-radius: 15px;
+  padding: 30px;
+  margin: 50px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08); 
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-control,
+textarea {
+  width: calc(100% - 2 * 10px);
+  margin-bottom: 15px;
+  background-color: rgba(255, 255, 255, 0.1); 
+  border: none;
+  padding: 10px;
+  color: white;
+  border-radius: 13px;
+}
+.title-note{
+  width: 420px;
+}
+.btn-primary {
+  width: 100%;
+}
