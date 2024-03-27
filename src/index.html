@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8" />
-  <title>Hello World!</title>
+  <title>Rutinitas</title>
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="index.css" />
 </head>
@@ -20,20 +20,25 @@
 
         <div class="title-note">
           <label>Work Title</label>
-          <input type="text" class="form-control" id="title">
+          <input type="text" class="form-control" id="note-title">
          
         </div>
         <div class="">
           <label>Describe</label><br>
-          <textarea name="" id="" cols="52" rows="5"></textarea>
+          <textarea name="" id="" cols="52" rows="5" id="note-description"></textarea>
         </div>
 
-        <button class="btn btn-primary w-25 py-2">Add Work</button>
+        <button class="btn btn-primary w-25 py-2" onclick="handleClick()">Add Work</button>
       </form>
+
+      <div class="added-notes">
+
+      </div>
 
 
 
   <script src="js/bootstrap.min.js"></script>
+  <script src="script.js"></script>
 </body>
 
 </html>
