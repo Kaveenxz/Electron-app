@@ -15,7 +15,7 @@
   </div>
 
 
-      <form class="add-note">
+      <form class="add-note" id="myForm">
         <h1 class="h3 mb-3 fw-normal">Add new Work</h1>
 
         <div class="title-note">
@@ -28,17 +28,20 @@
           <textarea name="" id="" cols="52" rows="5" id="note-description"></textarea>
         </div>
 
-        <button class="btn btn-primary w-25 py-2" onclick="handleClick()">Add Work</button>
+        <button class="btn btn-primary w-25 py-2" type="submit" onclick="handleClick()">Add Work</button>
       </form>
 
       <div class="added-notes">
-
+          <div class="note">
+            
+          </div>
       </div>
 
 
 
   <script src="js/bootstrap.min.js"></script>
   <script src="script.js"></script>
+
 </body>
 
 </html>
