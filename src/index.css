@@ -115,3 +115,23 @@ a{
 .date-time{
   list-style: none;
 }
+.btn-done{
+  background-color: #ca46ff; 
+  color: white; 
+  padding: 8px 17px; 
+  border: none; 
+  border-radius: 15px; 
+  cursor: pointer; 
+  font-size: 13px; 
+}
+.added-notes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.note {
+  width: calc(32.33% - 20px); 
+  padding: 10px;
+  border-radius: 5px;
+}
