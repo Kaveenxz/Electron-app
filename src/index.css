@@ -63,3 +63,55 @@ body{
 #note-form button:hover {
   background-color: #a100e1; 
 }
+
+#note-list {
+  list-style-type: none; 
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; 
+}
+
+.note {
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+  padding: 15px 15px; 
+  background-color: #3c21b2;
+  width: calc(30.33% - 18px); 
+  box-sizing: border-box; 
+}
+.note-meta{
+  color: #fff;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px #fff solid;
+  padding: 15px;
+  padding-top: 5px;
+}
+.note-meta li{
+  margin-right: 10px;
+}
+.note h2 {
+  margin-top: 10px;
+  color: #fff; 
+}
+
+.note p {
+  margin-top: 5px;
+  color: #ffffff; 
+  font-size: 20px;
+}
+
+.note time {
+  color: #999;
+}
+a{
+  text-decoration: none;
+
+}
+
+.date-time{
+  list-style: none;
+}
