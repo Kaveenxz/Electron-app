@@ -11,24 +11,24 @@
 <body>
 
   <div class="title">
-    <a href="index.html"><h1>Rutinitas</h1></a>
+      <h1>Rutinitas</h1>
   </div>
 
-  <form class="add-note" id="myForm">
-    <h1 class="h3 mb-3 fw-normal">Add new Work</h1>
-
-    <div class="title-note">
-      <label>Work Title</label>
-      <input type="text" class="form-control" id="note-title">
-
-    </div>
-    <div class="">
-      <label>Describe</label><br>
-      <textarea class="form-control" cols="52" rows="5" id="note-description"></textarea>
-    </div>
-
-    <button class="btn btn-primary w-25 py-2" type="button" onclick="handleClick()">Add Work</button>
-  </form>
+  <div className="form">
+    <Form action="" method="post" id="note-form" className='note-form'>
+      <p>
+        <label htmlFor="title">Title</label>
+        <input type="text" id="note-title" name="title" required />
+      </p>
+      <p>
+        <label htmlFor="content">Content</label>
+        <textarea name="content" id="note-description" rows={5} required ></textarea>
+      </p>
+      <div className="form-actions">
+        <button type="button" onclick="handleClick()">Add Note</button>
+      </div>
+    </Form>
+  </div>
 
   <div class="added-notes" id="added-note">
   </div>
