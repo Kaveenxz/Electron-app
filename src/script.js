@@ -20,10 +20,17 @@ function handleClick() {
                     <h2>${title}</h2>
                 </header>
                 <p>${description}</p>
+                <button class="btn-done">Done</button>
             </article>
         `;
 
         addedNote.appendChild(newNote);
+
+        // Attach event listener to the "Done" button
+        const btnDone = newNote.querySelector('.btn-done');
+        btnDone.addEventListener('click', function() {
+            addedNote.removeChild(newNote); // Remove the note when the button is clicked
+        });
 
         document.getElementById("note-title").value = "";
         document.getElementById("note-description").value = "";
