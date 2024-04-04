@@ -27,5 +27,5 @@ Contributions are welcome! If you'd like to contribute to Electrone, feel free t
 
 If you have any questions, suggestions, or issues, feel free to contact the maintainer:
 
-[Your Name](hansithkaveen9@gmail.com)
+[Kaveen Hansith](hansithkaveen9@gmail.com)
 
